@@ -18,3 +18,127 @@
           box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+.grid {
+    display: -ms-grid;
+    display: grid;
+    gap: 1rem;
+}
+
+.container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.section {
+    padding: 4rem 0 2rem;
+  }
+  
+  .icon {
+    font-size: 2rem;
+  }
+  
+  .btn {
+    margin: 1rem 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .section .title {
+    color: var(--secondaryColor);
+    text-align: center;
+  }
+
+.header {
+    position: fixed;
+    height: 3rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 2rem 1rem;
+    background: white;
+    -webkit-box-shadow: 0 2px 2px var(--secondaryColor);
+            box-shadow: 0 2px 2px var(--secondaryColor);
+    z-index: 100;
+  }
+  
+  .header .logoDiv {
+    padding: 1rem 0;
+  }
+  
+  .header .logoDiv .logo {
+    width: 40px;
+    cursor: pointer;
+  }
+  
+  .header .toggleDiv .toggleIcon {
+    color: var(--secondaryColor);
+    font-weight: 500;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .contactBtn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .contactBtn .contactLink {
+    padding: 0.8rem 1.5rem;
+    background: var(--primaryColor);
+    border-radius: 3rem;
+    color: var(--textColor);
+  }
+  
+  .contactBtn .contactLink:hover {
+    background: var(--primaryHover);
+  }
+  
+  .contactBtn .cartDiv {
+    margin-left: 1rem;
+  }
+  
+  .contactBtn .cartDiv .cartIcon {
+    color: var(--textColor);
+    cursor: pointer;
+    font-size: 1.8rem;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    background: var(--primaryColor);
+    padding: 8px;
+    border-radius: 50%;
+  }
+  
+  .contactBtn .cartDiv .cartIcon:hover {
+    color: var(--secondaryHover);
+  }
+  
+  .contactBtn .contactBtn:hover {
+    background: var(--primaryHover);
+  }
+  
