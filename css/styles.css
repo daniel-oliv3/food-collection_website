@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
+:root {
+  --primaryColor: rgb(0, 188, 126);
+  --primaryHover: rgb(5, 151, 103);
+  --secondaryColor: rgb(0, 26, 80);
+  --secondaryHover: rgb(2, 36, 107);
+  --textColor: rgb(255, 255, 255);
+  --footerBgColor: rgb(29, 29, 29);
+  --paragraphColor: rgb(175, 175, 175);
+  --greyBG: rgb(246, 246, 246);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
